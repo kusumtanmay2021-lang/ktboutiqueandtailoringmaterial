@@ -45,13 +45,13 @@ export default function ProductsSection({ searchQuery, setSearchQuery }: Product
   }, [selectedCategory, searchQuery]);
 
   const handleWhatsAppEnquiry = (product: Product) => {
-    const text = `Hello K.T Boutique! I am interested in enquiring about the following item:
+    const text = `Hello K.T Boutique! I am interested in enquiring about the following material:
 
 *${product.name}*
 Category: ${CATEGORIES.find((c) => c.value === product.category)?.label || product.category}
-Price: ${product.price || 'Enquire for Price'}
+Pricing: Contact Shop / Price on Request
 
-Please share availability and pricing details. Thank you!`;
+Please share current pricing, color matching options, and availability details. Thank you!`;
 
     const encodedText = encodeURIComponent(text);
     const url = `https://wa.me/919999296247?text=${encodedText}`;
@@ -69,7 +69,7 @@ Please share availability and pricing details. Thank you!`;
             Premium Materials & Tailoring Accessories
           </h2>
           <p className="text-sm text-charcoal-500 dark:text-charcoal-400 mt-2 font-light">
-            Browse our handpicked catalog. Click "Enquire on WhatsApp" to chat directly with us about prices, fabric feels, and ordering.
+            Browse our handpicked catalog of boutique-grade materials. To maintain the freshest selection and best competitive rates, individual item pricing is on request. Click <strong className="font-bold text-maroon-700 dark:text-gold-400">"Enquire"</strong> to check current prices or colors directly with us!
           </p>
           <div className="w-16 h-0.5 bg-gold-500 mx-auto mt-4" />
         </div>
@@ -223,9 +223,9 @@ Please share availability and pricing details. Thank you!`;
                     {/* Bottom details & button */}
                     <div className="pt-4 border-t border-charcoal-100 dark:border-charcoal-800 flex items-center justify-between gap-2">
                       <div className="flex flex-col">
-                        <span className="text-[10px] uppercase text-charcoal-400 dark:text-charcoal-500 font-semibold leading-none">Price Est.</span>
-                        <span className="text-sm font-serif font-bold text-maroon-700 dark:text-gold-400 mt-1">
-                          {product.price || 'Enquire Price'}
+                        <span className="text-[10px] uppercase text-charcoal-400 dark:text-charcoal-500 font-semibold leading-none">Pricing</span>
+                        <span className="text-xs font-serif font-bold text-maroon-700 dark:text-gold-400 mt-0.5" title="Contact us for latest pricing & bundles">
+                          Contact Shop
                         </span>
                       </div>
 

@@ -68,7 +68,6 @@ export const PRODUCTS: Product[] = [
     description: 'An elegant premium quality silk suit material with fine gold zari borders and matching dupatta. Perfect for festivals and weddings.',
     image: IMAGES.silkFabric,
     category: 'suit-materials',
-    price: '₹1,450 / set',
     tags: ['Silk', 'Wedding', 'Zari', 'Chanderi'],
     isNewArrival: true
   },
@@ -78,7 +77,6 @@ export const PRODUCTS: Product[] = [
     description: 'Hand-block printed floral pattern on super soft, highly breathable pure cotton fabric. Safe for delicate skin.',
     image: IMAGES.cottonFabric,
     category: 'cotton-fabrics',
-    price: '₹280 / meter',
     tags: ['Jaipuri', 'Cotton', 'Print', 'Daily Wear'],
     isNewArrival: false
   },
@@ -88,7 +86,6 @@ export const PRODUCTS: Product[] = [
     description: 'Exquisite banarasi silk brocade woven with golden metallic thread work in intricate traditional patterns.',
     image: IMAGES.designerFabric,
     category: 'designer-fabrics',
-    price: '₹750 / meter',
     tags: ['Benaresi', 'Golden', 'Luxury', 'Designer'],
     isNewArrival: true
   },
@@ -98,7 +95,6 @@ export const PRODUCTS: Product[] = [
     description: 'Vibrant embroidered border featuring authentic mirror work. Elevate your plain sarees and dupattas.',
     image: IMAGES.accessoriesCat,
     category: 'borders',
-    price: '₹120 / meter',
     tags: ['Handmade', 'Kutchi', 'Mirror Work', 'Colorful'],
     isNewArrival: false
   },
@@ -108,7 +104,6 @@ export const PRODUCTS: Product[] = [
     description: 'Delicate cotton crochet lace border for sleeve edges, neck designs, and curtain styling.',
     image: IMAGES.laces,
     category: 'laces',
-    price: '₹45 / meter',
     tags: ['Crochet', 'White Lace', 'Vintage', 'Cotton'],
     isNewArrival: false
   },
@@ -118,7 +113,6 @@ export const PRODUCTS: Product[] = [
     description: 'Gold-plated brass buttons inlaid with artificial Kundan stones and rhinestones. Perfect for royal blouses and sherwanis.',
     image: IMAGES.buttons,
     category: 'buttons',
-    price: '₹80 / piece',
     tags: ['Kundan', 'Royal', 'Designer', 'Gold'],
     isNewArrival: true
   },
@@ -128,7 +122,6 @@ export const PRODUCTS: Product[] = [
     description: 'Semi-stitched raw silk blouse piece with heavily detailed zardozi hand embroidery on neck and sleeves.',
     image: IMAGES.blousePiece,
     category: 'blouse-pieces',
-    price: '₹850 / piece',
     tags: ['Raw Silk', 'Hand Embroidery', 'Zardozi', 'Blouse'],
     isNewArrival: true
   },
@@ -138,7 +131,6 @@ export const PRODUCTS: Product[] = [
     description: 'High-tensile, colorfast mercerized cotton sewing threads. Available in over 150 matching shades.',
     image: IMAGES.threads,
     category: 'threads',
-    price: '₹15 / spool',
     tags: ['Vardhman', 'Threads', 'Stitching', 'Cotton'],
     isNewArrival: false
   },
@@ -148,7 +140,6 @@ export const PRODUCTS: Product[] = [
     description: 'Durable and ultra-smooth brass metal zippers for heavy dresses, skirts, and blouses.',
     image: IMAGES.zippers,
     category: 'zippers',
-    price: '₹35 / piece',
     tags: ['YKK', 'Zippers', 'Metal', 'Durable'],
     isNewArrival: false
   },
@@ -158,7 +149,6 @@ export const PRODUCTS: Product[] = [
     description: 'Premium iron-on fusing canvas buckram paper for collars, blouse necklines, and waistbands.',
     image: IMAGES.accessories,
     category: 'boutique-accessories',
-    price: '₹180 / roll',
     tags: ['Canvas', 'Buckram', 'Interlining', 'Stiffener'],
     isNewArrival: false
   },
@@ -168,7 +158,6 @@ export const PRODUCTS: Product[] = [
     description: 'Traditional Rajasthani golden Gota Patti lace border for festive ethnic outfits.',
     image: IMAGES.stitchingCat,
     category: 'laces',
-    price: '₹60 / meter',
     tags: ['Gota Patti', 'Gold', 'Rajasthani', 'Festive'],
     isNewArrival: true
   },
@@ -178,7 +167,6 @@ export const PRODUCTS: Product[] = [
     description: 'Authentic Tussar silk printed shirt fabric paired with plain cotton silk bottoms and printed silk dupatta.',
     image: IMAGES.fabricsCat,
     category: 'suit-materials',
-    price: '₹2,100 / set',
     tags: ['Tussar', 'Pure Silk', 'Traditional', 'Luxe'],
     isNewArrival: true
   }
@@ -187,48 +175,57 @@ export const PRODUCTS: Product[] = [
 export const SERVICES: Service[] = [
   {
     id: 's1',
-    title: 'Boutique Stitching',
-    description: 'Experience bespoke tailoring for custom salwar suits, lehengas, gowns, and designer dresses crafted to fit your silhouette perfectly.',
-    priceStart: '₹800',
-    features: ['Custom measurements & styling', 'Precision trial checks', 'Express delivery option', 'Experienced master cutters'],
+    title: 'Custom Blouse Stitching',
+    description: 'Beautiful designer blouses with princess cuts, boat necks, pad inserts, back drapes, and intricate hand-embellished zardozi work tailored to perfection.',
+    priceStart: '₹450',
+    features: ['Sabyasachi/Princess Cut options', 'Padded or non-padded linings', 'Dori & handcrafted latkans', 'Perfect matching adjustments'],
     image: IMAGES.stitchingCat,
-    icon: 'Scissors'
+    icon: 'Sparkles'
   },
   {
     id: 's2',
-    title: 'Custom Blouse Stitching',
-    description: 'Beautiful custom blouses with princess cuts, boat necks, pad inserts, back drapes, and intricate hand-embellished zardozi work.',
-    priceStart: '₹600',
-    features: ['Sabyasachi/Princess Cut options', 'Padded or non-padded linings', 'Dori & handcrafted latkans', 'Perfect matching adjustments'],
+    title: 'Suit Pant & Trouser Stitching',
+    description: 'Perfect-fit women’s trousers, pants, palazzos, salwars, or cigarette pants with customizable waistbands, pockets, and elegant side cuts.',
+    priceStart: '₹450',
+    features: ['Tailored comfort fit', 'Pocket insertion options', 'High-quality fusing canvas waist', 'Side-slits & button detailing'],
+    image: IMAGES.accessoriesCat,
+    icon: 'Scissors'
+  },
+  {
+    id: 's3',
+    title: 'Premium Salwar Suit Stitching',
+    description: 'Elegant custom salwar suits, straight Kurtis, Anarkalis, and Sharara sets tailored with perfect proportions and premium lining materials.',
+    priceStart: '₹650',
+    features: ['Premium lining attachment', 'Designer necklines & sleeve patterns', 'Symmetrical front-back falls', 'Precision trial checks'],
+    image: IMAGES.fabricsCat,
+    icon: 'Scissors'
+  },
+  {
+    id: 's4',
+    title: 'Lehenga & Gown Stitching',
+    description: 'Stunning heavy-flared designer bridal lehengas, bridesmaid outfits, and modern evening gowns designed and tailored by our veteran master cutter.',
+    priceStart: '₹1,800',
+    features: ['High-volume can-can attachment', 'Custom heavy tassels & doris', 'Intricate border layouts', 'Multiple trial sessions included'],
     image: IMAGES.stitchingCat || 'https://images.unsplash.com/photo-1590736969955-71cc94801759?auto=format&fit=crop&w=600&q=80',
     icon: 'Sparkles'
   },
   {
-    id: 's3',
-    title: 'Perfect Alterations',
-    description: 'Don’t let bad fitting ruin your favourite outfit. Get precision adjustments for shoulders, waist, sleeves, and lengths.',
-    priceStart: '₹150',
-    features: ['Invisible stitch repairs', 'Resize up or down', 'Restyle old necklines', 'Saree to gown reconstructions'],
-    image: IMAGES.accessoriesCat,
-    icon: 'Layers'
-  },
-  {
-    id: 's4',
+    id: 's5',
     title: 'Saree Fall & Pico',
-    description: 'Get high-quality matching cotton fall stitching and neat overlock edge pico styling for your brand new sarees.',
-    priceStart: '₹120',
-    features: ['100% color-matched cotton falls', 'Premium pico edging', 'Ironing & saree folding included', 'Bulk order discounts'],
+    description: 'Get high-quality matching cotton fall stitching and extremely neat overlock edge pico styling to prepare your brand new sarees.',
+    priceStart: '₹100',
+    features: ['100% color-matched cotton falls', 'Premium pico edging', 'Ironing & saree folding included', 'Fast 1-day standard delivery'],
     image: IMAGES.laces,
     icon: 'TrendingUp'
   },
   {
-    id: 's5',
-    title: 'Bespoke Fashion Consultation',
-    description: 'Not sure about fabric matching, design, or silhouettes? Sit with our lead designer to curate your dream festive wardrobe.',
-    priceStart: 'Free with Stitching',
-    features: ['Personalized neck & back guides', 'Color and pattern combinations', 'Latest trend updates', 'Material quantity estimations'],
+    id: 's6',
+    title: 'Precision Alterations',
+    description: 'Don’t let bad fitting ruin your favorite outfit. Get precision adjustments for shoulders, waist, bust, sleeves, and lengths.',
+    priceStart: '₹80',
+    features: ['Invisible stitch repairs', 'Resize outfits up or down', 'Restyle necklines/sleeves', 'Saree to gown transformations'],
     image: IMAGES.hero,
-    icon: 'MessageSquare'
+    icon: 'Layers'
   }
 ];
 

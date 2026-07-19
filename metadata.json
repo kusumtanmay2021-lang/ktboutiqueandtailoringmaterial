@@ -1,0 +1,6 @@
+{
+  "name": "K.T Tailoring Material And Boutique",
+  "description": "Premium tailoring materials, unstitched suit fabrics, borders, laces, and custom master stitching services in Indirapuram, Ghaziabad.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
